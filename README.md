@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hello! 👋 I'm Jefferson Calderon
 
-<!--
-**xJeffx23/xJeffx23** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 **Software Engineering** Student  
+🌎 Based in **Costa Rica**  
+💻 Passionate about **Open Source** and active member of the **Dojo Coding** community  
+🔍 Contributor to **OnlyDust** projects  
+🎨 Interested in **Frontend Development**  
 
-Here are some ideas to get you started:
+## 🚀 Technologies & Tools
+- **Languages:** JavaScript, Python, C#, Node.js  
+- **Currently Learning:** Cairo, React, Web3  
+  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🏆 Highlighted Projects
+- 🎲 **StarkLotto** – Project in development for a **Winter**  
+ 
+
+## 📫 How to reach me?
+- [LinkedIn](Jefferson Calderon Mesen)  
+- [Twitter](xjeffx23)  
