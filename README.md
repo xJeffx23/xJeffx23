@@ -16,5 +16,5 @@
  
 
 ## 📫 How to reach me?
-- [LinkedIn](Jefferson Calderon Mesen)  
+- LinkedIn Jefferson Calderon Mesen  
 - [Twitter](xjeffx23)  
