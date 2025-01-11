@@ -17,4 +17,4 @@
 
 ## 📫 How to reach me?
 - LinkedIn Jefferson Calderon Mesen  
-- [Twitter](#https://x.com/xjeffx23)  
+- Twitter xjeffx23  
