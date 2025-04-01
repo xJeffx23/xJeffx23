@@ -15,7 +15,7 @@
 
 - 🧑‍🎓 **Software Engineering Student**
 - 🌍 Based in **Costa Rica**
-- 🚀 Currently diving into **Cairo**, **React**, and **Web3**
+- 🚀 Currently diving into **Cairo** and **Web3**
 - 🧠 Contributor @ [OnlyDust](https://onlydust.com)
 - 🌱 Active member of the **Dojo Coding** community
 
