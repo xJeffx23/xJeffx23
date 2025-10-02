@@ -17,7 +17,7 @@
 - 🌍 Based in **Costa Rica**
 - 🚀 Currently diving into **Cairo** and **Web3**
 - 🧠 Contributor  [OnlyDust](https://onlydust.com)
-- 🌱 Active member of the **Dojo Coding** community
+
 
 ---
 
