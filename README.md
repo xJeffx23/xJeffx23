@@ -14,18 +14,10 @@
 </p>
 
 <p align="center">
-  <img src="./katana.svg" alt="Animated katana" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=1500&color=DC2626&center=true&vCenter=true&width=700&lines=o%28%29xxxx%5B%7B%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3A%3E" alt="Animated katana" />
 </p>
 
-## ⚔️ Activity
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xJeffx23/xJeffx23/output/blade.svg" alt="Animated contribution graph" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=xJeffx23&background=0A0A0A&ring=DC2626&fire=DC2626&currStreakLabel=DC2626&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF&stroke=DC2626&hide_border=true" alt="Contribution streak" />
-</p>
 
 ## 🏯 Projects
 
