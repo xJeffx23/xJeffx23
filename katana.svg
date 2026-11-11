@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120" role="img" aria-label="Animated katana">
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.55" stop-color="#a3adbb"/>
+      <stop offset="1" stop-color="#4b5563"/>
+    </linearGradient>
+    <linearGradient id="glint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="slash" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dc2626" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#dc2626" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#92400e"/>
+    </linearGradient>
+    <clipPath id="bladeClip">
+      <path d="M206 52 Q470 45 722 52 L746 61 Q470 63 206 67 Z"/>
+    </clipPath>
+    <filter id="glow" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- red slash that crosses the banner -->
+  <path d="M-20 104 L820 18" stroke="url(#slash)" stroke-width="3" stroke-linecap="round" fill="none"
+        stroke-dasharray="260 900" stroke-dashoffset="260" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="260;260;-900;-900" keyTimes="0;0.25;0.45;1" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- katana: slides in once, then keeps a slow breathing float -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-840 0;0 0" dur="0.9s"
+                      calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" fill="freeze"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="4s" repeatCount="indefinite"/>
+
+      <!-- handle -->
+      <rect x="60" y="51" width="12" height="17" rx="3" fill="url(#gold)"/>
+      <rect x="70" y="50" width="130" height="19" rx="4" fill="#111827" stroke="#dc2626" stroke-width="1"/>
+      <g fill="#dc2626">
+        <path d="M84 59.5 l8 -6 8 6 -8 6z"/>
+        <path d="M106 59.5 l8 -6 8 6 -8 6z"/>
+        <path d="M128 59.5 l8 -6 8 6 -8 6z"/>
+        <path d="M150 59.5 l8 -6 8 6 -8 6z"/>
+        <path d="M172 59.5 l8 -6 8 6 -8 6z"/>
+      </g>
+
+      <!-- guard -->
+      <rect x="198" y="39" width="9" height="41" rx="3.5" fill="url(#gold)" stroke="#78350f" stroke-width="0.75"/>
+
+      <!-- blade -->
+      <path d="M206 52 Q470 45 722 52 L746 61 Q470 63 206 67 Z" fill="url(#steel)" stroke="#334155" stroke-width="0.75"/>
+      <path d="M210 62 Q470 58 736 59.5" stroke="#f1f5f9" stroke-width="1" fill="none" opacity="0.7"/>
+
+      <!-- light running along the blade -->
+      <g clip-path="url(#bladeClip)">
+        <rect x="120" y="40" width="90" height="34" fill="url(#glint)">
+          <animate attributeName="x" values="120;120;780;780" keyTimes="0;0.3;0.55;1" dur="4s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <!-- spark at the tip -->
+      <circle cx="746" cy="61" r="2" fill="#ffffff" filter="url(#glow)">
+        <animate attributeName="r" values="0;0;5;0;0" keyTimes="0;0.52;0.57;0.65;1" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- falling petals -->
+  <g fill="#ef4444">
+    <ellipse rx="4" ry="2.2" opacity="0.8">
+      <animateMotion path="M120 -10 C150 30 90 70 130 130" dur="6s" repeatCount="indefinite" rotate="auto"/>
+    </ellipse>
+    <ellipse rx="3.2" ry="1.8" opacity="0.6">
+      <animateMotion path="M330 -10 C300 40 370 80 320 130" dur="7.5s" repeatCount="indefinite" rotate="auto"/>
+    </ellipse>
+    <ellipse rx="4" ry="2.2" opacity="0.7">
+      <animateMotion path="M540 -10 C580 30 510 80 560 130" dur="6.8s" repeatCount="indefinite" rotate="auto"/>
+    </ellipse>
+    <ellipse rx="3" ry="1.6" opacity="0.6">
+      <animateMotion path="M700 -10 C670 40 730 70 690 130" dur="8s" repeatCount="indefinite" rotate="auto"/>
+    </ellipse>
+  </g>
+</svg>
