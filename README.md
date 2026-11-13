@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/xJeffx23">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=DC2626&center=true&vCenter=true&width=650&lines=Developer+from+Costa+Rica+%F0%9F%87%A8%F0%9F%87%B7;Co-founder+of+Starklotto+%26+Akkuea;Open+Source+Contributor;90%2B+merged+pull+requests;Building+on+Stellar+%26+Starknet" alt="Developer from Costa Rica · Co-founder of Starklotto and Akkuea · Open Source Contributor · Building on Stellar and Starknet" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=DC2626&center=true&vCenter=true&width=650&lines=Developer+from+Costa+Rica+%F0%9F%87%A8%F0%9F%87%B7;Co-founder+of+Akkuea+Starklotto%26+;Open+Source+Contributor;90%2B+merged+pull+requests;Building+on+Stellar+%26+Starknet" alt="Developer from Costa Rica · Co-founder of Starklotto and Akkuea · Open Source Contributor · Building on Stellar and Starknet" />
   </a>
 </p>
 
